@@ -12,9 +12,9 @@ public class AutoconfigurationApplication {
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = SpringApplication.run(AutoconfigurationApplication.class, args);
 		
-		UserDAO userDAO = applicationContext.getBean(UserDAO.class);
+		/*UserDAO userDAO = applicationContext.getBean(UserDAO.class);
 		
-		System.out.println(userDAO.getAllUserNames());
+		System.out.println(userDAO.getAllUserNames());*/
 		
 		
 	}
